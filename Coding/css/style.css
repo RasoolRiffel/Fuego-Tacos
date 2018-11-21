@@ -4,7 +4,7 @@ h1 { font-size: 35px; font-family: ubuntu, open-sans, sans-serif; }
 
 h2 { font-size: 25px; }
 
-h3 { font-size: 23p; }
+h3 { font-size: 20px; }
 
 p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #808080; }
 
@@ -39,12 +39,28 @@ nav .active { color: #E22206; font-weight: bold; }
 
 .home-about-btn { color: #ffffff; background-color: #E22206; border: none; padding: 6px 12px; margin-top: 25px; margin-bottom: 60px; }
 
+.home-about-btn:hover { border: solid 1px #E22206; background-color: #808080; color: #E22206; }
+
 .head-line-1 { border: 0.5px solid #404041; margin-bottom: 0; max-width: 1170px; width: 100%; }
 
-.main-featured h2 { color: #E22206; }
+.col-main-left h2, h3, .happy-hour h2, .happy-hour h3 { color: #E22206; text-align: center; }
 
-.featured-left h3 { color: #E22206; }
+.col-main-left h2, .happy-hour h2 { padding-top: 46px; padding-bottom: 19px; margin-top: 0; margin-bottom: 0; }
 
-.featured-img { max-width: 620px; width: 100%; }
+.featured-img { max-width: 680px; width: 100%; padding-right: 13px; }
+
+.our-food p, .our-bar p, .main-featured p { text-align: center; max-width: 295px; margin-left: auto; margin-right: auto; }
+
+.our-food { padding-left: 0; }
+
+.our-bar, .our-food { margin-top: 48px; }
+
+.our-bar img, .our-food img { max-width: 295px; width: 100%; }
+
+.our-food { padding-right: 30px; }
+
+.happy-hour img { max-width: 378px; width: 100%; }
+
+.happy-hour { padding-left: 52px; border-left: 1px solid; }
 
 /*# sourceMappingURL=style.css.map */

@@ -11,7 +11,26 @@
 	.icon{
 		margin-top: 11px;
 	}
-	
+	.our-food p, .our-bar p{
+		text-align: left;
+		max-width: 295px;
+	}
+	.main-featured p{
+		text-align: left;
+		max-width: 620px;
+	}
+	.col-main-left h3, .happy-hour h3{
+		text-align: left;
+	}
+	.featured-left{
+		padding-left:40px;
+	}
+	.our-food p, .our-bar p, .main-featured p{
+		margin:{
+		left: 0;
+		right: 0;
+		}
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
