@@ -1,0 +1,36 @@
+body { font-family: ubuntu, open-sans, sans-serif; font-size: 16px; }
+
+h1 { font-size: 35px; }
+
+h2 { font-size: 25px; }
+
+h3 { font-size: 23p; }
+
+p { font-family: open sans; }
+
+.color { color: #E22206; }
+
+.contact-info-top { margin-left: 50px; margin-top: 20px; margin-bottom: 20px; }
+
+.site-logo-nav { max-width: 230px; width: 100%; margin-left: 30px; }
+
+nav { display: none; }
+
+.icon { color: #E22206; font-size: 35px; float: right; }
+.icon :hover { color: #E22206; }
+
+.blog-nav { float: right; margin-top: 15px; }
+
+.blog-nav a { color: #404041; }
+
+.blog-nav a:hover { text-decoration: none; color: #E22206; }
+
+.blog-nav-item { padding-left: 40px; }
+
+nav .active { color: #E22206; font-weight: bold; }
+
+.banner-image-home { width: 100%; margin-top: 20px; margin-bottom: 60px; }
+
+.intro-logo { max-width: 180px; margin-left: auto; margin-right: auto; }
+
+/*# sourceMappingURL=style.css.map */

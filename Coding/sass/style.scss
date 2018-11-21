@@ -1,0 +1,89 @@
+$red: #E22206;
+$darkgrey: #404041;
+$colorlightgrey: #808080;
+$font-famly: ubuntu, open-sans, sans-serif;
+$font-family-par: "Helvetica Neue",Helvetica,Arial,sans-serif;
+$h1: 35px;
+$h2: 25px;
+$h3: 23p;
+$par: 16px;
+
+@mixin ban-img-size{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+body{
+	font : {
+		family: ubuntu, open-sans, sans-serif;
+		size: 16px;
+	}
+}
+h1{
+	font-size: $h1;
+}
+h2{
+	font-size: $h2;
+}
+h3{
+	font-size: $h3;
+}
+p{
+	font-family: open sans;
+}
+.color{
+	color: $red;
+}
+.contact-info-top{
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.site-logo-nav{
+	max-width: 230px;
+	width: 100%;
+	margin-left: 30px;
+}
+nav{
+	display: none;
+}
+.icon{
+	color: $red;
+	font-size: $h1;
+	float: right;
+
+	:hover{
+		color: $red;
+	}
+}
+.icon:hover{
+	
+}
+.blog-nav{
+	float: right;
+	margin-top:15px;
+}
+.blog-nav a{
+	color: $darkgrey;
+
+}
+.blog-nav a:hover{
+	text-decoration: none;
+	color: $red;
+}
+.blog-nav-item{
+	padding-left: 40px;
+}
+nav .active{
+	color: $red;
+	font-weight:bold;
+}
+.banner-image-home{
+	@include ban-img-size;
+}
+.intro-logo{
+	max-width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
