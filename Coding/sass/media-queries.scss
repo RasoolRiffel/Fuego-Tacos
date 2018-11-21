@@ -11,6 +11,7 @@
 	.icon{
 		margin-top: 11px;
 	}
+	
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -21,7 +22,16 @@
 	nav{
 		display: block;
 	}
+	.about-home-txt{
+		max-width: 830px;
+		width: 100%;
+		Margin-left: 50px;
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+	.about-home-txt{
+		Margin-left: 150px;
+	}
+ }

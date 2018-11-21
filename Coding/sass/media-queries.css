@@ -2,7 +2,8 @@
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { .contact-info-top { margin-left: 0; float: right; }
-  .icon { margin-top: 11px; } }
+  .icon { margin-top: 11px; }
+  .home-about-btn { margin-left: 280px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { .icon { display: none; }
   nav { display: block; }

@@ -1,12 +1,12 @@
 body { font-family: ubuntu, open-sans, sans-serif; font-size: 16px; }
 
-h1 { font-size: 35px; }
+h1 { font-size: 35px; font-family: ubuntu, open-sans, sans-serif; }
 
 h2 { font-size: 25px; }
 
 h3 { font-size: 23p; }
 
-p { font-family: open sans; }
+p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #808080; }
 
 .color { color: #E22206; }
 
@@ -31,6 +31,20 @@ nav .active { color: #E22206; font-weight: bold; }
 
 .banner-image-home { width: 100%; margin-top: 20px; margin-bottom: 60px; }
 
-.intro-logo { max-width: 180px; margin-left: auto; margin-right: auto; }
+.intro-logo { max-width: 180px; margin-left: auto; margin-right: auto; margin-bottom: 17px; }
+
+.about-fuego { text-align: center; }
+
+.about-home-txt { text-align: center; }
+
+.home-about-btn { color: #ffffff; background-color: #E22206; border: none; padding: 6px 12px; margin-top: 25px; margin-bottom: 60px; }
+
+.head-line-1 { border: 0.5px solid #404041; margin-bottom: 0; max-width: 1170px; width: 100%; }
+
+.main-featured h2 { color: #E22206; }
+
+.featured-left h3 { color: #E22206; }
+
+.featured-img { max-width: 620px; width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

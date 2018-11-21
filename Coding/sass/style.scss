@@ -1,18 +1,6 @@
-$red: #E22206;
-$darkgrey: #404041;
-$colorlightgrey: #808080;
-$font-famly: ubuntu, open-sans, sans-serif;
-$font-family-par: "Helvetica Neue",Helvetica,Arial,sans-serif;
-$h1: 35px;
-$h2: 25px;
-$h3: 23p;
-$par: 16px;
-
-@mixin ban-img-size{
-	width: 100%;
-	margin-top: 20px;
-	margin-bottom: 60px;
-}
+@import "helper/colors";
+@import "helper/fonts";
+@import "helper/mixins";
 
 body{
 	font : {
@@ -22,6 +10,7 @@ body{
 }
 h1{
 	font-size: $h1;
+	font-family: $font;
 }
 h2{
 	font-size: $h2;
@@ -30,7 +19,8 @@ h3{
 	font-size: $h3;
 }
 p{
-	font-family: open sans;
+	font-family: $fontfamily;
+	color: $lightgrey;
 }
 .color{
 	color: $red;
@@ -86,4 +76,35 @@ nav .active{
 	max-width: 180px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 17px;
+}
+.about-fuego{
+	text-align:center;
+}
+.about-home-txt{
+	text-align: center;
+}
+.home-about-btn{
+	color: $white;
+	background-color: $red;
+	border: none;
+	padding: 6px 12px;
+	margin-top: 25px;
+	margin-bottom: 60px;
+}
+.head-line-1{
+	border: 0.5px solid $darkgrey;
+	margin-bottom: 0;
+	max-width: 1170px;
+	width: 100%;
+}
+.main-featured h2{
+	color: $red;
+}
+.featured-left h3{
+	color: $red;
+}
+.featured-img{
+	max-width: 620px;
+	width: 100%;
 }
