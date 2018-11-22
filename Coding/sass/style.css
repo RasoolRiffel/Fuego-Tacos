@@ -61,8 +61,8 @@ nav .active { color: #E22206; font-weight: bold; }
 
 .happy-hour img { max-width: 378px; width: 100%; }
 
-.happy-hour { padding-left: 52px; border-left: 1px solid; }
+.happy-hour, .get-in-touch { padding-left: 52px; border-left: 1px solid; }
 
-.get-in-touch { padding-top: 20px !important; }
+.get-in-touch { padding-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */
