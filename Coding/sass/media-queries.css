@@ -7,12 +7,27 @@
   .main-featured p { text-align: left; max-width: 620px; }
   .col-main-left h3, .happy-hour h3 { text-align: left; }
   .featured-left { padding-left: 40px; }
-  .our-food p, .our-bar p, .main-featured p { margin-left: 0; margin-right: 0; } }
+  .our-food p, .our-bar p, .main-featured p { margin-left: 0; margin-right: 0; }
+  .happy-hour p { text-align: left; }
+  .our-food { padding-right: 30px; }
+  .our-food, .food-bar { padding-left: 0; }
+  .happy-hour-col-right { padding-top: 35px; }
+  .get-in-touch-border { margin-right: 10px; }
+  .get-in-touch p { padding-left: 50px; padding-right: 50px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { .icon { display: none; }
   nav { display: block; }
-  .about-home-txt { max-width: 830px; width: 100%; Margin-left: 50px; } }
+  .about-home-txt { max-width: 830px; width: 100%; Margin-left: 50px; }
+  .happy-hour, .get-in-touch { border-left: 1px solid; }
+  .happy-hour-col-right { padding-top: 0px; }
+  .happy-hour p { max-width: 390px; }
+  .happy-hour { padding-right: 65px; }
+  .happy-hour, .get-in-touch { padding-left: 40px; }
+  .get-in-touch p { padding-left: 15px; padding-right: 15px; }
+  .get-in-touch-border { margin-right: 40px; } }
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { .about-home-txt { Margin-left: 150px; } }
+@media (min-width: 1200px) { .about-home-txt { margin-left: 150px; }
+  .get-in-touch-border { margin-right: 40px; }
+  .get-in-touch { padding-bottom: 75px; } }
 
 /*# sourceMappingURL=media-queries.css.map */

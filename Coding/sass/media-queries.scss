@@ -31,6 +31,27 @@
 		right: 0;
 		}
 	}
+	.happy-hour p{
+		text-align: left;
+	}
+	.our-food{
+	padding-right: 30px;
+	}
+	.our-food, .food-bar{
+		padding-left: 0;
+	}
+	.happy-hour-col-right{
+		padding-top: 35px;
+	}
+	.get-in-touch-border{
+		margin-right: 10px;
+	}
+	.get-in-touch p{
+		padding:{
+			left:50px;
+			right: 50px;
+			} 
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -46,11 +67,49 @@
 		width: 100%;
 		Margin-left: 50px;
 	}
+	.happy-hour, .get-in-touch{
+		border-left: 1px solid;
+	}
+	.happy-hour-col-right{
+		padding-top: 0px;
+	}
+	.happy-hour p{
+		max-width: 390px;
+	}
+	.happy-hour {
+    	padding-right: 65px;
+
+	}
+	.happy-hour, .get-in-touch{
+		padding-left: 40px;
+	}
+	.get-in-touch p{
+		padding:{
+			left: 15px;
+			right: 15px;
+			} 
+	}
+	.get-in-touch-border{
+		margin-right: 40px;
+	}
+	.form-row{
+		margin-left: 60px;
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
 	.about-home-txt{
-		Margin-left: 150px;
+		margin-left: 150px;
 	}
+	.get-in-touch-border{
+		margin-right:40px;
+	}
+	.get-in-touch{
+		padding-bottom: 75px;
+	}
+	.form-row{
+		margin-left: 160px;
+	}
+
  }

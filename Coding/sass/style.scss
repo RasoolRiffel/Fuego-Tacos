@@ -20,7 +20,7 @@ h3{
 }
 p{
 	font-family: $fontfamily;
-	color: $lightgrey;
+	color: $lightgreypar;
 }
 .color{
 	color: $red;
@@ -86,26 +86,21 @@ nav .active{
 .about-home-txt{
 	text-align: center;
 }
-.home-about-btn{
-	color: $white;
-	background-color: $red;
-	border: none;
-	padding: 6px 12px;
+.fuego-btn{
+	@include button-style;
 	margin-top: 25px;
 	margin-bottom: 60px;
 }
-.home-about-btn:hover{
+.fuego-btn:hover{
 		border: solid 1px $red;
-		background-color: $lightgrey;
+		background-color: $lightgreybtn;
 		color: $red;
 	}
 .head-line-1{
-	border: 0.5px solid $darkgrey;
+	@include hr-line-style;
 	margin-bottom: 0;
-	max-width: 1170px;
-	width: 100%;
 }
-.col-main-left h2, h3, .happy-hour h2, .happy-hour h3{
+.col-main-left h2, h3, .happy-hour h2, .happy-hour h3, .form-footer h2{
 	color: $red;
 	text-align: center;	
 }
@@ -131,27 +126,91 @@ nav .active{
 	}
 }
 .our-food{
-	padding-left: 0;
+	padding-left: 15px;
 }
 .our-bar, .our-food{
-	margin-top: 48px;
+	margin-top: 36px;
 }
 .our-bar img, .our-food img{
 	max-width: 295px;
 	width: 100%;
 }
-.our-food{
-	padding-right: 30px;
-}
+
 .happy-hour img{
-	max-width: 378px;
+	max-width: 390px;
 	width: 100%;
+
+}
+.happy-hour{
+	padding-right: 25px;
+	margin:{
+		left: auto;
+		right: auto;
+	}
+}
+.happy-hour p{
+	max-width: 320px;
+	width: 100%;
+	text-align: center;
 }
 .happy-hour, .get-in-touch{
-	padding-left: 52px;
-    border-left: 1px solid
+	padding:{
+		left: 30px;
+		bottom: 10px;
+	}
 }
-
 .get-in-touch{
-	padding-top: 20px;	
+	padding-top: 14px;
+	padding-right: 25px;
+}
+.get-in-touch-border, .get-in-touch-border p{
+	text-align: center;
+	padding: 6px;
+	background-color: $red;
+	color: $white!important;
+}
+.get-in-touch h2{
+	padding-top: 35px;
+}
+.get-in-touch button{
+	@include button-style-red-background;
+	margin-bottom: 35px;
+}
+.get-in-touch p{
+	padding: 20px;
+}
+.head-line-2{
+	@include hr-line-style;
+	margin-top: 0;
+}
+.form-footer input, .form-footer select, .form-footer textarea{
+	border: 2px solid $black;
+	margin-bottom: 10px;
+}
+.form-input{
+	max-width: 250px;
+	width: 100%;
+}
+.form-btn{
+	@include button-style;
+}
+.form-footer select, .form-btn, .form-footer input{
+	border-radius: 0;
+	max-width: 260px;
+	width: 100%;
+}
+.form-footer textarea{
+	border-radius: 0;
+	max-width: 532px;
+	width: 100%;
+}
+.form-row{
+	max-width: 812px;
+	width: 100%;
+}
+.form-footer{
+	margin-bottom: 60px;
+}
+footer{
+	background-color: $peach;
 }

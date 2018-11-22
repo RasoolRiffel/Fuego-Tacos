@@ -49,7 +49,7 @@
         <img src="img/fuego-tacos-logo-black.png" alt="Fuego Tacos Logo" class="img-responsive">
         </div>
         <p class="about-home-txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-        <a href="#"><button class="home-about-btn">More About Fuego</button></a>
+        <a href="#"><button class="fuego-btn">More About Fuego</button></a>
       </div>      
     </div>
 
@@ -68,18 +68,22 @@
                 <p class="featured-txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
               </div>           
 
-              <div class="col-sm-6 our-food">
-                <img src="img/fuego-tacos-food.jpg" alt="Fuego's Food" class="img-responsive">
-                <h3>OUR FOOD</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed id nibh vitae est rhoncus porttitor, Maecenas vehicula purus vitae ante porttitor tincidunt, Proin nibh purus, tempor ac sem vel.</p>
-              </div> 
+              <div class="row">
+                <div class="col-sm-12 food-bar">
+                   <div class="col-sm-6 our-food">
+                    <img src="img/fuego-tacos-food.jpg" alt="Fuego's Food" class="img-responsive">
+                    <h3>OUR FOOD</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed id nibh vitae est rhoncus porttitor, Maecenas vehicula purus vitae ante porttitor tincidunt, Proin nibh purus, tempor ac sem vel.</p>
+                  </div> 
 
-              <div class="col-sm-6 our-bar">
-                <img src="img/fuego-tacos-bar.jpg" alt="Fuego's Bar" class="img-responsive">
-                <h3>OUR BAR</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed id nibh vitae est rhoncus porttitor, Maecenas vehicula purus vitae ante porttitor tincidunt, Proin nibh purus, tempor ac sem vel.</p>
-              </div>
+                  <div class="col-sm-6 our-bar">
+                    <img src="img/fuego-tacos-bar.jpg" alt="Fuego's Bar" class="img-responsive">
+                    <h3>OUR BAR</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed id nibh vitae est rhoncus porttitor, Maecenas vehicula purus vitae ante porttitor tincidunt, Proin nibh purus, tempor ac sem vel.</p>
+                  </div>
+                </div>
+              </div>             
             </div>
           </div>
         </div>
@@ -88,15 +92,22 @@
         <div class="row">
           <div class="happy-hour">
             <h2>HAPPENINGS</h2>
-            <img src="img/fuego-tacos-the-happenings.jpg" alt="Fuego's Happy Hour" class=" img-responsive">
-            <h3>HAPPY HOUR</h3>
-            <p class="happy-hour-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed id nibh vitae est rhoncus porttitor, Maecenas vehicula purus vitae ante porttitor tincidunt, Proin nibh purus, tempor ac sem vel, dignissim commodo mauris.</p>
+            <div class="row">
+              <div class="col-sm-6 col-md-12">
+                <img src="img/fuego-tacos-the-happenings.jpg" alt="Fuego's Happy Hour" class="img-responsive">
+              </div>
+              <div class="col-sm-6 col-md-12 happy-hour-col-right">
+                <h3>HAPPY HOUR</h3>
+                <p class="happy-hour-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed id nibh vitae est rhoncus porttitor, Maecenas vehicula purus vitae ante porttitor tincidunt, Proin nibh purus, tempor ac sem vel, dignissim commodo mauris.</p>
+              </div>
+            </div>
           </div>
 
           <div class="get-in-touch">
-            <div>
+            <div class="get-in-touch-border">
               <h2>GET IN TOUCH</h2>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.</p>
+              <button>Read More</button>
             </div>            
           </div>
         </div>
@@ -104,7 +115,89 @@
     </div>
     </div>
     
+    <hr class="head-line-2">
 
+    <div class="container">
+      <div class="form-footer">
+        <h2>MAKE A RESERVATION</h2>
+        <form>
+          <div class="row form-row">
+            <div class="col-sm-4">
+              <input type="text" placeholder="First Name" class="form-control">
+            </div>
+            <div class="col-sm-4">
+              <input type="text" placeholder="Last Name" class="form-control">
+            </div>
+            <div class="col-sm-4">
+              <input type="text" placeholder="Email Address" class="form-control">
+            </div>
+          </div>
+          <div class="row form-row">
+            <div class="col-xs-6 col-sm-4">
+              <select value="Date" class="form-control drpdwn">
+                <option value="DATE">Date</option>
+                <option value="DATE">2</option>
+                <option value="DATE">3</option>
+                <option value="DATE">4</option>
+                <option value="DATE">5</option>
+              </select>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+              <select class="form-control drpdwn">
+                <option value="Time">Time</option>
+                <option value="Time">2</option>
+                <option value="Time">3</option>
+                <option value="Time">4</option>
+                <option value="Time">5</option>
+              </select>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <select class="form-control drpdwn">
+                <option value="Party Size">Party Size</option>
+                <option value="Party Size">2</option>
+                <option value="Party Size">3</option>
+                <option value="Party Size">4</option>
+                <option value="Party Size">5</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row form-row">
+            <div class="col-sm-8">
+              <textarea class="form-control drpdwn" placeholder="Comment" rows="1"></textarea>
+            </div>
+          
+            <div class="col-sm-4">
+              <button type="submit" class="form-btn">Book Now</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div>
+            <img src="">
+          </div>
+          <div>
+            <p>
+              
+            </p>
+            <p>
+              
+            </p>
+          </div>
+          <div>
+            
+          </div>
+          <div>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

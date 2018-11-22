@@ -74,7 +74,7 @@ nav .active {
 .about-home-txt {
   text-align: center; }
 
-.home-about-btn {
+.fuego-btn {
   color: #ffffff;
   background-color: #E22206;
   border: none;
@@ -82,18 +82,18 @@ nav .active {
   margin-top: 25px;
   margin-bottom: 60px; }
 
-.home-about-btn:hover {
+.fuego-btn:hover {
   border: solid 1px #E22206;
-  background-color: #808080;
+  background-color: #C6C6C6;
   color: #E22206; }
 
 .head-line-1 {
   border: 0.5px solid #404041;
-  margin-bottom: 0;
   max-width: 1170px;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 0; }
 
-.col-main-left h2, h3, .happy-hour h2, .happy-hour h3 {
+.col-main-left h2, h3, .happy-hour h2, .happy-hour h3, .form-footer h2 {
   color: #E22206;
   text-align: center; }
 
@@ -115,27 +115,94 @@ nav .active {
   margin-right: auto; }
 
 .our-food {
-  padding-left: 0; }
+  padding-left: 15px; }
 
 .our-bar, .our-food {
-  margin-top: 48px; }
+  margin-top: 36px; }
 
 .our-bar img, .our-food img {
   max-width: 295px;
   width: 100%; }
 
-.our-food {
-  padding-right: 30px; }
-
 .happy-hour img {
-  max-width: 378px;
+  max-width: 390px;
   width: 100%; }
 
+.happy-hour {
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.happy-hour p {
+  max-width: 320px;
+  width: 100%;
+  text-align: center; }
+
 .happy-hour, .get-in-touch {
-  padding-left: 52px;
-  border-left: 1px solid; }
+  padding-left: 30px;
+  padding-bottom: 10px; }
 
 .get-in-touch {
-  padding-top: 20px; }
+  padding-top: 14px;
+  padding-right: 25px; }
+
+.get-in-touch-border, .get-in-touch-border p {
+  text-align: center;
+  padding: 6px;
+  background-color: #E22206;
+  color: #ffffff !important; }
+
+.get-in-touch h2 {
+  padding-top: 35px; }
+
+.get-in-touch button {
+  color: #ffffff;
+  background-color: #E22206;
+  border: 1px solid #ffffff;
+  padding: 6px 12px;
+  margin-bottom: 35px; }
+
+.get-in-touch p {
+  padding: 20px; }
+
+.head-line-2 {
+  border: 0.5px solid #404041;
+  max-width: 1170px;
+  width: 100%;
+  margin-top: 0; }
+
+.form-footer input, .form-footer select, .form-footer textarea {
+  border: 2px solid #000000;
+  margin-bottom: 10px; }
+
+.form-input {
+  max-width: 250px;
+  width: 100%; }
+
+.form-btn {
+  color: #ffffff;
+  background-color: #E22206;
+  border: none;
+  padding: 6px 12px; }
+
+.form-footer select, .form-btn, .form-footer input {
+  border-radius: 0;
+  max-width: 260px;
+  width: 100%; }
+
+.form-footer textarea {
+  border-radius: 0;
+  max-width: 532px;
+  width: 100%; }
+
+.form-row {
+  max-width: 812px;
+  width: 100%; }
+
+.form-footer {
+  margin-bottom: 60px; }
+
+footer {
+  background-color: #EAEAEA; }
 
 /*# sourceMappingURL=style.css.map */

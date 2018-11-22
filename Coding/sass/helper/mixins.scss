@@ -3,3 +3,20 @@
 	margin-top: 20px;
 	margin-bottom: 60px;
 }
+@mixin button-style{
+	color: $white;
+	background-color: $red;
+	border: none;
+	padding: 6px 12px;
+}
+@mixin button-style-red-background{
+	color: $white;
+	background-color: $red;
+	border: 1px solid $white;
+	padding: 6px 12px;
+}
+@mixin hr-line-style{
+	border: 0.5px solid $darkgrey;
+	max-width: 1170px;
+	width: 100%;
+}
