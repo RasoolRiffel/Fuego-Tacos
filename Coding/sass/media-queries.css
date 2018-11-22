@@ -3,7 +3,11 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { .contact-info-top { margin-left: 0; float: right; }
   .icon { margin-top: 11px; }
-  .home-about-btn { margin-left: 280px; } }
+  .our-food p, .our-bar p { text-align: left; max-width: 295px; }
+  .main-featured p { text-align: left; max-width: 620px; }
+  .col-main-left h3, .happy-hour h3 { text-align: left; }
+  .featured-left { padding-left: 40px; }
+  .our-food p, .our-bar p, .main-featured p { margin-left: 0; margin-right: 0; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { .icon { display: none; }
   nav { display: block; }

@@ -1,18 +1,46 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { .contact-info-top { margin-left: 0; float: right; }
-  .icon { margin-top: 11px; }
-  .our-food p, .our-bar p { text-align: left; max-width: 295px; }
-  .main-featured p { text-align: left; max-width: 620px; }
-  .col-main-left h3, .happy-hour h3 { text-align: left; }
-  .featured-left { padding-left: 40px; }
-  .our-food p, .our-bar p, .main-featured p { margin-left: 0; margin-right: 0; } }
+@media (min-width: 768px) {
+  .contact-info-top {
+    margin-left: 0;
+    float: right; }
+
+  .icon {
+    margin-top: 11px; }
+
+  .our-food p, .our-bar p {
+    text-align: left;
+    max-width: 295px; }
+
+  .main-featured p {
+    text-align: left;
+    max-width: 620px; }
+
+  .col-main-left h3, .happy-hour h3 {
+    text-align: left; }
+
+  .featured-left {
+    padding-left: 40px; }
+
+  .our-food p, .our-bar p, .main-featured p {
+    margin-left: 0;
+    margin-right: 0; } }
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { .icon { display: none; }
-  nav { display: block; }
-  .about-home-txt { max-width: 830px; width: 100%; Margin-left: 50px; } }
+@media (min-width: 992px) {
+  .icon {
+    display: none; }
+
+  nav {
+    display: block; }
+
+  .about-home-txt {
+    max-width: 830px;
+    width: 100%;
+    Margin-left: 50px; } }
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { .about-home-txt { Margin-left: 150px; } }
+@media (min-width: 1200px) {
+  .about-home-txt {
+    Margin-left: 150px; } }
 
 /*# sourceMappingURL=media-queries.css.map */
