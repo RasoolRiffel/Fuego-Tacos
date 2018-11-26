@@ -36,7 +36,7 @@ nav {
   color: #E22206;
   font-size: 35px;
   float: right; }
-  .icon :hover {
+  .icon:hover {
     color: #E22206; }
 
 .blog-nav {
@@ -45,10 +45,9 @@ nav {
 
 .blog-nav a {
   color: #404041; }
-
-.blog-nav a:hover {
-  text-decoration: none;
-  color: #E22206; }
+  .blog-nav a:hover {
+    text-decoration: none;
+    color: #E22206; }
 
 .blog-nav-item {
   padding-left: 40px; }
@@ -57,11 +56,67 @@ nav .active {
   color: #E22206;
   font-weight: bold; }
 
-.banner-image-home {
+.mySlides {
+  display: none; }
+
+img {
+  vertical-align: middle; }
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 60px; }
 
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none; }
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+/* Caption text */
+.featured-txt {
+  display: none; }
+
+.featured-txt h2 {
+  color: #E22206; }
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
 .intro-logo {
   max-width: 180px;
   margin-left: auto;
@@ -81,11 +136,10 @@ nav .active {
   padding: 6px 12px;
   margin-top: 25px;
   margin-bottom: 60px; }
-
-.fuego-btn:hover {
-  border: solid 1px #E22206;
-  background-color: #C6C6C6;
-  color: #E22206; }
+  .fuego-btn:hover {
+    border: solid 1px #E22206;
+    background-color: #C6C6C6;
+    color: #E22206; }
 
 .head-line-1 {
   border: 0.5px solid #404041;
@@ -171,6 +225,9 @@ nav .active {
   width: 100%;
   margin-top: 0; }
 
+form {
+  margin-left: 20px; }
+
 .form-footer input, .form-footer select, .form-footer textarea {
   border: 2px solid #000000;
   margin-bottom: 10px; }
@@ -203,6 +260,30 @@ nav .active {
   margin-bottom: 60px; }
 
 footer {
-  background-color: #EAEAEA; }
+  background-color: #EAEAEA;
+  text-align: center; }
+
+footer img {
+  max-width: 230px;
+  width: 100%;
+  margin-left: 25px; }
+
+.footer-row {
+  margin-top: 18px; }
+
+footer h3 {
+  color: #404041;
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 23px; }
+
+.footer-nav a {
+  color: #404041; }
+  .footer-nav a:hover {
+    text-decoration: none;
+    color: #E22206; }
+
+.footer-column {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */

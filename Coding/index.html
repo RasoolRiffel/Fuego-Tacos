@@ -13,13 +13,14 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/media-queries.css">
 
+
   </head>
 
   <body>
     <div class="container">
       <div class="row">
         <div class="">
-          <p class="contact-info-top"><span class="color"><strong>E</strong></span> :info@fuegotacos.co.za <span class="color"><i class="fab fa-facebook-square"></i> <i class="fab fa-instagram"></i></span></p>
+          <p class="contact-info-top"><span class="color"><strong>E:</strong></span> info@fuegotacos.co.za <span class="color"><i class="fab fa-facebook-square"></i> <i class="fab fa-instagram"></i></span></p>
         </div>
       </div>
 
@@ -40,8 +41,39 @@
         </div>
       </div>
     </div>
+    <div class="slideshow-container ">
 
-    <img src="img/fuego-tacos-banner-homepage-slider-02.jpg" alt="Fuego Tacos" class="banner-image-home">
+      <div class="mySlides">
+        <img src="img/fuego-tacos-banner-homepage-slider-01.jpg" style="width:100%">
+        <div class="featured-txt">
+          <span class="featured-txt-bg">
+            <h2>FEATURED TACOS</h2>
+            <p>Lorem ipsum dolor sit amet, sed diam diamconsectetuer adipiscing elit, sed diam nonummy nibh...</p>
+          </span>          
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <img src="img/fuego-tacos-banner-homepage-slider-02.jpg" style="width:100%">
+        <div class="featured-txt">
+          <h2>FEATURED TACOS</h2>
+          <p>Lorem ipsum dolor sit amet, sed diam diamconsectetuer adipiscing elit, sed diam nonummy nibh...</p>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <img src="img/fuego-tacos-banner-homepage-slider-03.jpg" style="width:100%">
+        <div class="featured-txt">
+          <h2>FEATURED TACOS</h2>
+          <p>Lorem ipsum dolor sit amet, sed diam diamconsectetuer adipiscing elit, sed diam nonummy nibh...</p>
+        </div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-angle-left"></i></a>
+      <a class="next" onclick="plusSlides(1)"><i class="fas fa-angle-right"></i></a>
+
+    </div>
+      <br>
 
     <div class="container">
       <div class="about-fuego">
@@ -177,23 +209,39 @@
 
     <footer>
       <div class="container">
-        <div class="row">
-          <div>
-            <img src="">
+        <div class="row footer-row">
+          <div class="col-xs-12 col-sm-3 footer-column">
+            <img src="img/fuego-tacos-logo-gold.png" alt="Fuego Tacos Gold Logo">
           </div>
-          <div>
+          <div class="col-xs-12 col-sm-3 footer-column">
+            <h3>INFO</h3>
+            <span class="footer-nav">
+              <a href="#">About Fuego Tacos</a><br>
+              <a href="#">View Menu</a> or <a href="#">Download PDF</a><br>
+              <a href="#">Gallery</a><br>
+              <a href="#">Reservations</a>
+            </span>
+          </div>
+          <div class="col-xs-12 col-sm-3 footer-column">
+            <h3>VISIT US</h3>
             <p>
-              
+              Shop #2,<br>
+              77 Regent Road,<br>
+              Sea Point, Cape Town
             </p>
             <p>
-              
+              Open:<br>
+              Tuesday - Saturday (11AM -<br>
+              10PM)<br>
+              Sunday (9AM - 4PM)
             </p>
           </div>
-          <div>
-            
-          </div>
-          <div>
-            
+          <div class="col-xs-12 col-sm-3 footer-column">
+            <h3>CONTACT US</h3>
+            <span class="color"><strong>T:</strong></span> +27 (21) 200 4278<br>
+            <span class="color"><strong>E:</strong></span> info@fuegotacos.co.za<br>
+            <span class="color"><i class="fab fa-facebook-square"></i></span> Fuego Tacos<br>
+            <span class="color"><i class="fab fa-instagram"></i></span> @FuegoTacos
           </div>
         </div>
       </div>
@@ -202,5 +250,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/js.js"></script>
   </body>
 </html>

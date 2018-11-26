@@ -1,4 +1,6 @@
-
+@import "helper/colors";
+@import "helper/fonts";
+@import "helper/mixins";
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
@@ -52,6 +54,12 @@
 			right: 50px;
 			} 
 	}
+	footer{
+		text-align: left;
+	}
+	footer h3{
+		text-align: left;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -65,7 +73,7 @@
 	.about-home-txt{
 		max-width: 830px;
 		width: 100%;
-		Margin-left: 50px;
+		margin-left: 50px;
 	}
 	.happy-hour, .get-in-touch{
 		border-left: 1px solid;
@@ -95,6 +103,17 @@
 	.form-row{
 		margin-left: 60px;
 	}
+	.featured-txt{
+		display: block;
+		background-color: rgba($white, 0.5);
+  		padding: 8px 12px;
+  		position: absolute;
+  		left: 120px;
+  		bottom: 70px ;
+  		width: 100%;
+  		max-width: 295px;
+	}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
